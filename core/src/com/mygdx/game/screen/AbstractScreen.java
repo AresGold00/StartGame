@@ -3,6 +3,7 @@ package com.mygdx.game.screen;
 import com.badlogic.gdx.Screen;
 
 public class AbstractScreen implements Screen {
+
     @Override
     public void show() {
 

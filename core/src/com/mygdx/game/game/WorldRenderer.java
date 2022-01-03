@@ -1,24 +1,32 @@
 package com.mygdx.game.game;
 
-import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
+import com.mygdx.game.screen.utils.Assets;
 
 public class WorldRenderer {
     private GameController gc;
     private SpriteBatch batch;
+    private BitmapFont font32;
+    private StringBuilder sb;
 
     public WorldRenderer(GameController gc, SpriteBatch batch) {
         this.gc = gc;
         this.batch = batch;
+        this.font32 = Assets.getInstance().getAssetManager().get("fonts/font32.ttf", BitmapFont.class);
+        this.sb = new StringBuilder();
     }
 
     public void render() {
-        float dt = Gdx.graphics.getDeltaTime();
-        ScreenUtils.clear(0.0F, 0.1F, 0.5F, 1.0F);
-        this.batch.begin();
-        gc.getBackground().render(this.batch);
-        gc.getHero().render(this.batch);
-        this.batch.end();
+        ScreenUtils.clear(0.0f, 0.1f, 0.5f, 1);
+        batch.begin();
+        gc.getBackground().render(batch);
+        gc.getAsteroidController().render(batch);
+        gc.getBulletController().render(batch);
+        gc.getParticleController().render(batch);
+        gc.getHero().render(batch);
+        gc.getHero().renderGUI(batch, font32);
+        batch.end();
     }
 }
