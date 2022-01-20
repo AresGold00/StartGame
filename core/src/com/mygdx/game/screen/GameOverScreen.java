@@ -3,17 +3,12 @@ package com.mygdx.game.screen;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.scenes.scene2d.ui.Button;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
-import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.mygdx.game.game.Background;
 import com.mygdx.game.game.Hero;
-import com.mygdx.game.screen.utils.Assets;
+import com.star.app.screen.utils.Assets;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
 
 
 public class GameOverScreen extends AbstractScreen {

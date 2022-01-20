@@ -3,7 +3,7 @@ package com.mygdx.game.game;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.mygdx.game.game.helpers.ObjectPool;
-import com.mygdx.game.screen.utils.Assets;
+
 
 public class AsteroidController extends ObjectPool<Asteroid> {
     private GameController gc;

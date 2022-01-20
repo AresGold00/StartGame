@@ -13,8 +13,9 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.mygdx.game.game.Background;
-import com.mygdx.game.screen.utils.Assets;
+import com.star.app.screen.utils.Assets;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundImage;
 
 
 public class MenuScreen extends AbstractScreen {
@@ -30,7 +31,7 @@ public class MenuScreen extends AbstractScreen {
 
     @Override
     public void show() {
-        this.background = new Background(null);
+        this.background = new Background((BackgroundImage) null);
         this.stage = new Stage(ScreenManager.getInstance().getViewport(), batch);
         this.font72 = Assets.getInstance().getAssetManager().get("fonts/font72.ttf");
         this.font24 = Assets.getInstance().getAssetManager().get("fonts/font24.ttf");

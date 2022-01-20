@@ -4,8 +4,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
 import com.mygdx.game.game.helpers.ObjectPool;
-import com.mygdx.game.screen.utils.Assets;
-
+import com.star.app.screen.utils.Assets;
 
 public class PowerUpsController extends ObjectPool<PowerUp> {
     private GameController gc;

@@ -3,7 +3,6 @@ package com.mygdx.game.game;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.game.helpers.Poolable;
 
-
 public class Particle implements Poolable {
     private Vector2 position;
     private Vector2 velocity;

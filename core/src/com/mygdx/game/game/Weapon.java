@@ -3,8 +3,7 @@ package com.mygdx.game.game;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector3;
-import com.mygdx.game.screen.utils.Assets;
-
+import com.star.app.screen.utils.Assets;
 
 public class Weapon {
     private GameController gc;

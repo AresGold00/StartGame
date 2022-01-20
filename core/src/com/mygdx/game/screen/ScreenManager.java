@@ -6,7 +6,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.StartGame;
 import com.mygdx.game.game.Hero;
-import com.mygdx.game.screen.utils.Assets;
+import com.star.app.screen.utils.Assets;
 
 public class ScreenManager {
     public enum ScreenType {

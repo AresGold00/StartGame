@@ -8,7 +8,7 @@ import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.mygdx.game.screen.ScreenManager;
-import com.mygdx.game.screen.utils.Assets;
+import com.star.app.screen.utils.Assets;
 
 public class GameController {
     private Background background;

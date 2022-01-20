@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.game.helpers.Poolable;
 
+
 public class InfoText implements Poolable {
     private Color color;
     private StringBuilder text;

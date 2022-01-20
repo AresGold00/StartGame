@@ -3,7 +3,6 @@ package com.mygdx.game.game;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.mygdx.game.game.helpers.Poolable;
-import com.mygdx.game.game.helpers.Poolable;
 import com.mygdx.game.screen.ScreenManager;
 
 public class Bullet implements Poolable {

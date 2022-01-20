@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.mygdx.game.screen.ScreenManager;
-import com.mygdx.game.screen.utils.Assets;
+import com.star.app.screen.utils.Assets;
 
 public class WorldRenderer {
     private GameController gc;
